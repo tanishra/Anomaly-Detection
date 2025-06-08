@@ -36,13 +36,16 @@ The objective is to detect outliers using different machine learning approaches 
 
 ## 📊 Visualizations
 Plots and graphs are included for:
+- Isolation Forest
 - Cluster formation (DBSCAN)
 - Local density comparisons (LOF)
-- Outlier points (all methods)
 
-## 🛠️ Installation
+## ✅ Results
+- Isolation Forest detected anomalies effectively in the healthcare dataset by isolating outlier points.
+- DBSCAN identified noise points in the synthetic circular data, highlighting global low-density regions.
+- Local Outlier Factor (LOF) detected subtle, local density anomalies in the same synthetic dataset, offering more granularity than DBSCAN.
 
-```bash
-git clone https://github.com/your-username/anomaly-detection.git
-cd anomaly-detection
-pip install -r requirements.txt
+## 🤝 Contributions
+Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
+
+
